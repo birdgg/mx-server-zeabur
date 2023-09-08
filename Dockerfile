@@ -9,6 +9,6 @@ ENV NODE_ENV=production
 
 VOLUME /root/.mx-space
 
-EXPOSE 2333
-
 CMD ["bash", "./docker-run.sh"]
+
+EXPOSE 2333
